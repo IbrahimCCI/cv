@@ -1,7 +1,7 @@
 h1{color :green;}
 h2{color : blue; front-style; italic}
 
-progress_bar.mdl-slider__container {
+#progress_bar {
     background-color: white !important; /* Met le fond de la barre en blanc */
     position: fixed !important; /* Permet de définir la position de la barre comme fixe */
     top: 0; /* Défini la postion de la barre en haut */
@@ -60,3 +60,5 @@ progress_bar.mdl-slider__container {
     margin          : auto;
     font            : normal 12px verdana, sans-serif;
 }
+
+
