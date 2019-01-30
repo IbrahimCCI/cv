@@ -2,7 +2,7 @@ h1{color :green;}
 h2{color : blue; front-style; italic}
 
 #progress_bar {
-    background-color: white !important; /* Met le fond de la barre en blanc */
+    background-color: yellow !important; /* Met le fond de la barre en blanc */
     position: fixed !important; /* Permet de définir la position de la barre comme fixe */
     top: 0; /* Défini la postion de la barre en haut */
     z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
@@ -25,7 +25,7 @@ h2{color : blue; front-style; italic}
 }
 
 #fixe-bas
-#progress_bar{
+{
     background      : #f0f0f0;
     height          : 40px;
     border-top      : 2px solid #dedede;
