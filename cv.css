@@ -1,10 +1,62 @@
 h1{color :green;}
 h2{color : blue; front-style; italic}
 
-.mdl-slider__container {
+progress_bar.mdl-slider__container {
     background-color: white !important; /* Met le fond de la barre en blanc */
     position: fixed !important; /* Permet de définir la position de la barre comme fixe */
     top: 0; /* Défini la postion de la barre en haut */
     z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
     width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+  body
+{
+    margin          : 0;
+    background      : url(fond-body.gif) fixed repeat-x 0 20px;
+}
+
+#fixe-haut
+{
+    background      : #6c123c url(fond-head.gif) repeat-x;
+    height          : 70px;
+    position        : fixed;
+    top             : 0;
+    width           : 100%;
+    left            : 0;
+}
+
+#fixe-bas
+{
+    background      : #f0f0f0;
+    height          : 40px;
+    border-top      : 2px solid #dedede;
+    position        : fixed;
+    bottom          : 0;
+    width           : 100%;
+    left            : 0;
+}
+
+#fixe-haut p
+{
+    width           : 900px;
+    margin          : 0 auto;
+    color           : #ccc;
+    font            : bold italic 25px times new roman, serif;
+    padding-top     : 25px;
+}
+	
+#fixe-bas p
+{
+    text-align      : center;
+    color           : #a7a7a7;
+    font            : normal 11px verdana, sans-serif;
+    padding-top     : 12px;
+    margin          : 0;
+}
+
+#content
+{
+    padding         : 70px 0 42px 0;
+    width           : 900px;
+    margin          : auto;
+    font            : normal 12px verdana, sans-serif;
 }
