@@ -10,7 +10,7 @@ document.getElementById('progress_bar').value = (window.scrollY*100)/(document.b
 
 function myScroll() { // Définition de la fonction de scroll
     var progress = document.getElementById('progress_bar').value; // Valeur de la barre de progression
-    
+    progress =progress*document.body.offsetHeight/15-window.innerHeight;
     // Calculez ici la valeur de déplacement à efectuer lors du scroll
     
     window.scroll(0, value) // Déplacement de la page de 0 px latéralement et 'value' px horizontalement
